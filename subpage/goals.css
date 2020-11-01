@@ -1,0 +1,48 @@
+h1{
+  color: #0000FF;
+  font-family: sans-serif;
+}
+h2{
+  color: #0100FF
+  font-family: sans-serif;
+}
+.table-box{
+  
+  margin:50px auto;
+}
+.table-row
+{
+  display:table;
+    width:80%;
+    margin:10px auto;
+    font-family: sans-serif;
+  background: transparent;
+  padding:1px 0;
+  color:#444;
+  font-size: 13px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+}
+.table-cell
+{
+  display: table-cell;
+    width:30%;
+  text-align:center;
+  padding:4px 0;
+  border-right: 1px solid gray;
+    veritcal-align:middle;
+}
+.table-head{
+  background:green;
+  box-shadow:none;
+  color:#fff;
+  font-weight:600;
+  
+}
+.table-head .table-cell
+{
+  boarder-right: none
+}
+.last-cell
+{
+  boarder-right: none;
+}
